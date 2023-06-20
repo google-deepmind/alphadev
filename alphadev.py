@@ -783,6 +783,7 @@ class Game(object):
 
   def is_correct(self) -> bool:
     # Whether the current algorithm solves the game.
+    pass
 
   def legal_actions(self) -> Sequence[Action]:
     # Game specific calculation of legal actions.
